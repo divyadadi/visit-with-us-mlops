@@ -1,12 +1,12 @@
 name: VisitWithUs - End-to-End ML Pipeline
-
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
   workflow_dispatch:
-
 jobs:
   ml_pipeline:
     runs-on: ubuntu-latest
